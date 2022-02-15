@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile</title>
+    
+    <link rel="stylesheet" href="styles/mobile.css">
+    <style>
+        * {
+          box-sizing: border-box;
+        }
+        .head{
+            justify-content: center;
+            align-items: center;
+            margin: 10px;
+        }
+        body {
+          font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        /* Style the header */
+        .header {
+          background-color: #f1f1f1;
+          padding: 30px;
+          text-align: center;
+          font-size: 35px;
+        }
+        
+        /* Container for flexboxes */
+        .row {
+          display: -webkit-flex;
+          display: flex;
+          height: 50vh;
+        }
+        
+        /* Create three equal columns that sits next to each other */
+        .column1 {
+          -webkit-flex: 1;
+          -ms-flex: 1;
+          flex: 1;
+          margin: 10px;
+          padding: 10px;
+          
+        }
+        .img{
+            height: 50pvh;
+            width: 30vw;
+        }
+        .column2 {
+          -webkit-flex: 1;
+          -ms-flex: 1;
+          flex: 1;
+          margin: 10px;
+          padding: 10px;
+           /* Should be removed. Only for demonstration */
+        }
+        .column3 {
+          -webkit-flex: 1;
+          -ms-flex: 1;
+          flex: 1;
+          margin: 10px;
+          padding: 10px;
+          
+        }
+        .column4 {
+          -webkit-flex: 1;
+          -ms-flex: 1;
+          flex: 1;
+          margin: 10px;
+          padding: 10px;
+          
+          
+        }
+        .column5 {
+          -webkit-flex: 1;
+          -ms-flex: 1;
+          flex: 1;
+          margin: 10px;
+          padding: 10px;
+          
+
+          
+        }
+        .title{
+            padding: 20px;
+            margin: 50px;
+            background-color: rgb(92, 185, 228);
+            justify-content: center;
+            align-items: center;
+            box-shadow: 5px solid black;
+        }
+        .para{
+            font-size: 15px;
+            margin: 40px;  
+            padding: 50px;
+            background-color: rgb(92, 185, 228);
+            border: black;
+            justify-content: center;
+            align-items: center;
+            
+        }
+      .BTN{
+        background-color: rgb(92, 185, 228);
+        text-decoration: none;
+        padding: 5px;
+        margin-top: 20px;
+        margin: 10px;
+        position: absolute;
+        right: 20px;
+        bottom: -270px;
+        color: wheat;
+      }
+        </style>
+</head>
+<body>
+    <nav class="navbar">
+        <h1 class="logo"><a href="./index.html">EI-Gadget's</a></h1>
+
+        <ul class="link">
+          <li class="item"><a href="/camera.html">Camera</a></li>
+            
+           
+          <li class="item"><a href="/display.html">Display</a></li>
+          <li class="item"><a href="/hardware.html">Hardware</a></li>
+            
+        </ul>
+    </nav>
+    
+  
+      <br>
+      <div class="title">
+
+        <h1>MOBILES</h1>
+    </div>
+    <br>
+    <div class="row">
+        <div class="column1" style="background-color:rgb(192, 221, 248);">
+           <img class="img" src="./images/phn1.jpeg"/>
+        </div>
+        
+        <div class="column2" style="background-color:rgb(192, 221, 248);">
+            <img class="img" src="./images/phn2.jpeg"/>
+           </div>
+        <div class="column3" style="background-color:rgb(192, 221, 248);">
+            <img  class="img" src="./images/phn3.jpeg"/></div>
+      </div>
+      <div class="row2">
+        <div class="column5" >
+          <h1 class="para">The Vivo V9 is one of the first Android phones to sport a notch at the top of the display. It has a 6.3-inch IPS display with a 19:9 ratio and a resolution of 1080x2280 pixels. Powering the phone is a Snapdragon 626 octa-core processor clocked at 2.2GHz. It has 4GB of RAM and the device has 64GB of internal storage. The V9 is a dual SIM device and has two nano SIM slots along with a dedicated microSD card slot. It sports a dual camera setup at the back comprising of a 16-megapixel and a 5-megapixel sensor. It packs in a 3260mAh battery and has a 24-megapixel selfie camera.</h1>
+         </div>
+        </div>
+        <button class="BTN"><a href="/camera.html">KNOW MORE...</a></button>
+</body>
+</html>
